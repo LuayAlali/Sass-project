@@ -1,7 +1,21 @@
 //Typography     
 
+* {
+  font-family: 'Lato', sans-serif;
+  color: #777;
+  box-sizing: border-box;
+}
+
+p {
+  line-height: 1.45em;
+}
+
+a {
+  text-decoration: none;
+}
+
 .headline-primary {
-  color: $color-1;
+  
   margin-left: 10px;
 }
 
