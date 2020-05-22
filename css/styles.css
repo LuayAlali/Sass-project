@@ -1,276 +1,4 @@
 /* CSS Document */
-/* line 3, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_buttons.scss */
-.btn {
-  margin-top: 15px;
-  width: 100%;
-  color: #fff;
-  border: none;
-  padding: 10px 0;
-  text-transform: uppercase;
-  border-radius: 5px; }
-  @media (min-width: 768px) {
-    /* line 3, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_buttons.scss */
-    .btn {
-      padding: 10px 30px; } }
-  @media (min-width: 768px) {
-    /* line 14, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_buttons.scss */
-    .btn + .btn {
-      margin-left: 10px; } }
-
-/* line 21, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_buttons.scss */
-.default {
-  background-color: #51ddfc; }
-  /* line 23, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_buttons.scss */
-  .default:hover {
-    background-color: #83e7fd; }
-
-/* line 28, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_buttons.scss */
-.error {
-  background-color: #e4757a; }
-  /* line 30, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_buttons.scss */
-  .error:hover {
-    background-color: #eca0a3; }
-
-/* line 35, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_buttons.scss */
-.info {
-  background-color: #927bc1; }
-  /* line 37, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_buttons.scss */
-  .info:hover {
-    background-color: #af9ed1; }
-
-/* line 42, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_buttons.scss */
-.success {
-  background-color: #63cc82; }
-  /* line 44, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_buttons.scss */
-  .success:hover {
-    background-color: #89d9a1; }
-
-/* line 49, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_buttons.scss */
-.warning {
-  background-color: #fd7856; }
-  /* line 51, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_buttons.scss */
-  .warning:hover {
-    background-color: #fea088; }
-
-/* line 3, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_form.scss */
-.form {
-  flex-basis: 100%; }
-
-/* line 7, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_form.scss */
-.input {
-  display: block;
-  width: 94%;
-  margin: 10px auto 0;
-  border: none;
-  padding: 10px;
-  border-bottom: 5px solid #58e1c1; }
-
-/* line 16, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_form.scss */
-.hidden {
-  position: absolute;
-  left: -10000px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden; }
-
-/* line 3, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-.container {
-  padding: 0 10px; }
-  @media (min-width: 768px) {
-    /* line 3, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-    .container {
-      max-width: 1400px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto; } }
-
-/* line 13, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-.row {
-  display: flex;
-  flex-direction: column;
-  padding: 1em 10px; }
-  @media (min-width: 768px) {
-    /* line 13, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-    .row {
-      flex-direction: row; } }
-
-/* line 22, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-[class^=col] {
-  margin-top: 10px;
-  flex-basis: 100%;
-  min-height: 25px;
-  padding: 10px;
-  border-radius: 5px; }
-  @media (min-width: 768px) {
-    /* line 22, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-    [class^=col] {
-      display: flex;
-      justify-content: center;
-      margin-top: 0;
-      align-items: center; } }
-  @media (min-width: 768px) and (min-width: 768px) {
-    /* line 33, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-    [class^=col] + [class^=col] {
-      margin-left: 10px; } }
-
-/* line 41, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-.theme.col-1 {
-  background-color: #927bc1; }
-
-/* line 45, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-.theme.col-2 {
-  background-color: #fd7856; }
-
-/* line 49, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-.theme.col-3 {
-  background-color: #deb2ee; }
-
-/* line 53, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-.theme.col-4 {
-  background-color: #7ee6fd; }
-
-/* line 57, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-.theme.col-5 {
-  background-color: #88d9a0; }
-
-/* line 61, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-.theme.col-6 {
-  background-color: #4da2bb; }
-
-/* line 65, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-.theme.col-7 {
-  background-color: #ec9fa3; }
-
-/* line 69, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-.theme.col-8 {
-  background-color: #fd9f85; }
-
-/* line 73, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-.theme.col-9 {
-  background-color: #e4757a; }
-
-/* line 77, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-.theme.col-10 {
-  background-color: #63cc82; }
-
-/* line 81, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-.theme.col-11 {
-  background-color: #51ddfc; }
-
-/* line 85, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-.theme.col-12 {
-  background-color: #80e8d1; }
-
-/* line 89, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-.card {
-  flex-basis: 100%; }
-
-@media (min-width: 768px) {
-  /* line 95, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-  .centered {
-    display: block;
-    margin-left: auto;
-    margin-right: auto; }
-  /* line 105, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-  .col-1 {
-    flex-basis: 8.33%; }
-  /* line 109, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-  .col-2 {
-    flex-basis: 16.67%; }
-  /* line 113, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-  .col-3 {
-    flex-basis: 25.00%; }
-  /* line 117, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-  .col-4 {
-    flex-basis: 33.33%; }
-  /* line 121, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-  .col-5 {
-    flex-basis: 41.67%; }
-  /* line 125, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-  .col-6 {
-    flex-basis: 50.00%; }
-  /* line 129, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-  .col-7 {
-    flex-basis: 58.33%; }
-  /* line 133, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-  .col-8 {
-    flex-basis: 66.67%; }
-  /* line 137, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-  .col-9 {
-    flex-basis: 75.00%; }
-  /* line 141, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-  .col-10 {
-    flex-basis: 83.33%; }
-  /* line 145, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-  .col-11 {
-    flex-basis: 91.67%; }
-  /* line 149, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
-  .col-12 {
-    flex-basis: 100%; } }
-
-/* line 3, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_images.scss */
-.img-avatar {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  max-width: 100%;
-  max-height: 100%; }
-
-/* line 8, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_images.scss */
-.img-frame {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  max-width: 100%;
-  padding: 13px;
-  border: 1px solid #ccc; }
-
-/* line 14, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_images.scss */
-.img-logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
-
-@media (min-width: 768px) {
-  /* line 23, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_images.scss */
-  .logo {
-    margin-left: initial;
-    margin-right: initial; } }
-
-/* line 1, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_navigation.scss */
-.nav {
-  padding-left: 0;
-  flex-basis: 100%;
-  display: flex;
-  flex-direction: column; }
-  @media (min-width: 768px) {
-    /* line 1, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_navigation.scss */
-    .nav {
-      flex-direction: row;
-      justify-content: flex-end;
-      align-items: center; } }
-
-/* line 12, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_navigation.scss */
-.nav-link {
-  text-align: center;
-  border-radius: 5px;
-  padding: 10px 0;
-  display: block;
-  width: 100%;
-  transition: background-color .2s ease-in-out,  color .2s ease-in-out; }
-  @media (min-width: 768px) {
-    /* line 12, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_navigation.scss */
-    .nav-link {
-      flex-basis: 100px; } }
-
-/* line 26, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_navigation.scss */
-.nav-link:hover {
-  color: #fff;
-  background-color: #58e1c1; }
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -647,5 +375,275 @@ a {
   padding-left: 20px;
   border-left: 8px solid #58e1c1;
   border-radius: 5px; }
+
+/* line 3, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_buttons.scss */
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px; }
+  @media (min-width: 768px) {
+    /* line 3, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_buttons.scss */
+    .btn {
+      padding: 10px 30px; } }
+  @media (min-width: 768px) {
+    /* line 14, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_buttons.scss */
+    .btn + .btn {
+      margin-left: 10px; } }
+
+/* line 21, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_buttons.scss */
+.default {
+  background-color: #51ddfc; }
+  /* line 23, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_buttons.scss */
+  .default:hover {
+    background-color: #83e7fd; }
+
+/* line 28, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_buttons.scss */
+.error {
+  background-color: #e4757a; }
+  /* line 30, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_buttons.scss */
+  .error:hover {
+    background-color: #eca0a3; }
+
+/* line 35, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_buttons.scss */
+.info {
+  background-color: #927bc1; }
+  /* line 37, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_buttons.scss */
+  .info:hover {
+    background-color: #af9ed1; }
+
+/* line 42, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_buttons.scss */
+.success {
+  background-color: #63cc82; }
+  /* line 44, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_buttons.scss */
+  .success:hover {
+    background-color: #89d9a1; }
+
+/* line 49, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_buttons.scss */
+.warning {
+  background-color: #fd7856; }
+  /* line 51, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_buttons.scss */
+  .warning:hover {
+    background-color: #fea088; }
+
+/* line 3, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_form.scss */
+.form {
+  flex-basis: 100%; }
+
+/* line 7, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_form.scss */
+.input {
+  display: block;
+  width: 94%;
+  margin: 10px auto 0;
+  border: none;
+  padding: 10px;
+  border-bottom: 5px solid #58e1c1; }
+
+/* line 16, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_form.scss */
+.hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden; }
+
+/* line 3, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+.container {
+  padding: 0 10px; }
+  @media (min-width: 768px) {
+    /* line 3, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+    .container {
+      max-width: 1400px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; } }
+
+/* line 13, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 10px; }
+  @media (min-width: 768px) {
+    /* line 13, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+    .row {
+      flex-direction: row; } }
+
+/* line 22, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+[class^=col] {
+  margin-top: 10px;
+  flex-basis: 100%;
+  min-height: 25px;
+  padding: 10px;
+  border-radius: 5px; }
+  @media (min-width: 768px) {
+    /* line 22, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+    [class^=col] {
+      display: flex;
+      justify-content: center;
+      margin-top: 0;
+      align-items: center; } }
+  @media (min-width: 768px) and (min-width: 768px) {
+    /* line 33, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+    [class^=col] + [class^=col] {
+      margin-left: 10px; } }
+
+/* line 41, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+.theme.col-1 {
+  background-color: #927bc1; }
+
+/* line 45, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+.theme.col-2 {
+  background-color: #fd7856; }
+
+/* line 49, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+.theme.col-3 {
+  background-color: #deb2ee; }
+
+/* line 53, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+.theme.col-4 {
+  background-color: #7ee6fd; }
+
+/* line 57, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+.theme.col-5 {
+  background-color: #88d9a0; }
+
+/* line 61, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+.theme.col-6 {
+  background-color: #4da2bb; }
+
+/* line 65, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+.theme.col-7 {
+  background-color: #ec9fa3; }
+
+/* line 69, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+.theme.col-8 {
+  background-color: #fd9f85; }
+
+/* line 73, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+.theme.col-9 {
+  background-color: #e4757a; }
+
+/* line 77, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+.theme.col-10 {
+  background-color: #63cc82; }
+
+/* line 81, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+.theme.col-11 {
+  background-color: #51ddfc; }
+
+/* line 85, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+.theme.col-12 {
+  background-color: #80e8d1; }
+
+/* line 89, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+.card {
+  flex-basis: 100%; }
+
+@media (min-width: 768px) {
+  /* line 95, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+  .centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  /* line 105, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+  .col-1 {
+    flex-basis: 8.33%; }
+  /* line 109, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+  .col-2 {
+    flex-basis: 16.67%; }
+  /* line 113, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+  .col-3 {
+    flex-basis: 25.00%; }
+  /* line 117, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+  .col-4 {
+    flex-basis: 33.33%; }
+  /* line 121, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+  .col-5 {
+    flex-basis: 41.67%; }
+  /* line 125, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+  .col-6 {
+    flex-basis: 50.00%; }
+  /* line 129, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+  .col-7 {
+    flex-basis: 58.33%; }
+  /* line 133, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+  .col-8 {
+    flex-basis: 66.67%; }
+  /* line 137, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+  .col-9 {
+    flex-basis: 75.00%; }
+  /* line 141, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+  .col-10 {
+    flex-basis: 83.33%; }
+  /* line 145, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+  .col-11 {
+    flex-basis: 91.67%; }
+  /* line 149, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_grid.scss */
+  .col-12 {
+    flex-basis: 100%; } }
+
+/* line 3, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_images.scss */
+.img-avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+  max-height: 100%; }
+
+/* line 8, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_images.scss */
+.img-frame {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+  padding: 13px;
+  border: 1px solid #ccc; }
+
+/* line 14, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_images.scss */
+.img-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+@media (min-width: 768px) {
+  /* line 23, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_images.scss */
+  .logo {
+    margin-left: initial;
+    margin-right: initial; } }
+
+/* line 1, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_navigation.scss */
+.nav {
+  padding-left: 0;
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column; }
+  @media (min-width: 768px) {
+    /* line 1, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_navigation.scss */
+    .nav {
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center; } }
+  /* line 11, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_navigation.scss */
+  .nav .nav-link {
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 0;
+    display: block;
+    width: 100%;
+    transition: background-color .2s ease-in-out,  color .2s ease-in-out; }
+    @media (min-width: 768px) {
+      /* line 11, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_navigation.scss */
+      .nav .nav-link {
+        flex-basis: 100px; } }
+  /* line 25, ../../../../../Documents/Tech-degree/project-4/Sass-project/scss/components/_navigation.scss */
+  .nav .nav-link:hover {
+    color: #fff;
+    background-color: #58e1c1; }
 
 /*# sourceMappingURL=styles.css.map */
